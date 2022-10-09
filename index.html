@@ -30,117 +30,11 @@
 
 
     <link rel="stylesheet" href="css pages/index.css">
+    <script src="components/header.js" type="text/javascript" defer></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!----------------------------------------------navbar----------------------------------------------------------------------->
 
-    <!---------------------------------------------navbar large-------------------------------------------------------------->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-    <a class="navbar-brand pl-3" href="#">
-        <img src="image/ecelltext.png" class="logoimg" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-md-auto mr-5 text-capitalize ">
-        <li class="nav-item ml-0 pl-0 px-2">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item px-2">
-          <a class="nav-link" href="#aboutvphp">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item px-2">
-          <a class="nav-link" href="#thirdvphp">Initiatives</a>
-        </li>
-
-
-        <li class="nav-item px-2">
-          <a class="nav-link" href="#sixthvphp">E-Summit</a>
-        </li>
-        <li class="nav-item px-2">
-          <a class="nav-link" href="#seventhvphp">SW</a>
-        </li>
-
-        <li class="nav-item px-2">
-          <a class="nav-link" href="social.html">Social</a>
-        </li>
-          
-                     <li class="nav-item px-2">
-             <a  class="nav-link" href="https://anchor.fm/entrepreneurship-cell-dtu">Podcast</a>
-           </li>
-
-
-
-
-        <li class="nav-item dropdown px-2">
-          <a class="nav-link dropdown-toggle" href="#testvphp" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Message
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#testvphp">Testimonials</a>
-            <a class="dropdown-item" href="message.html">Faculty</a>
-
-          </div>
-        </li>
-
-        <li class="nav-item px-2">
-          <a class="nav-link" href="#contactformvphp">Contact</a>
-        </li>
-
-        <li class="nav-item dropdown px-2">
-          <a class="nav-link dropdown-toggle" href="#fifthvphp" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Team
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="team.html">Our Team</a>
-            <a class="dropdown-item" href="pastMembers.html">Past Members</a>
-
-          </div>
-        </li>
-
-
-
-
-
-      </ul>
-
-
-    </div>
-  </nav>
-
-   <!---------------------------------------------navbar small-------------------------------------------------------------->
-
-   <nav class="navbarsm">
-
-    <a class="navbar-brand" href="#">
-      <img src="image/ecelltext.png" class="logoimgsm " a="logo">
-    </a>
-  </nav>
-
-    <div class="sidebar" id="sidebar">
-      <div class="toggle" onclick="toggle_div()"></div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="index.html#aboutvphp">About</a></li>
-          <li><a href="index.html#thirdvphp">Initiatives</a></li>
-
-          <li><a href="index.html#sixthvphp">E-Summit</a></li>
-          <li><a href="index.html#seventhvphp">SW</a></li>
-          <li><a href="social.html">Social</a></li>
-                     <li><a href="https://anchor.fm/entrepreneurship-cell-dtu">Podcast</a></li>
-
-          <li><a href="index.html#testvphp">Testimonial</a></li>
-          <li><a href="index.html#contactformvphp">Contact</a></li>
-          <li><a href="message.html">Message</a></li>
-          <li><a href="team.html">Team</a></li>
-         <li><a href="pastMembers.html">Past Members</a></li>
-        </ul>
-
-    </div>
-
-
+      <header-component state="Home"></header-component>
       <!------------------------------------------------------1st view port------------------------------------------------------>
         <div class="firstvp" id="firstvphp">
             <div class="parallax" id="bg">
